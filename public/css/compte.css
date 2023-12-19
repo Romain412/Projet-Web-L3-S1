@@ -12,12 +12,12 @@ button{
 }
 
 button:hover{
-    background: #3a429d;
+    background: #94c2e2;
     color: white;
-    box-shadow: 0 0 15px rgb(24,40,63),
-                0 0 15px rgb(24,40,63),
-                0 0 15px rgb(24,40,63),
-                0 0 15px rgb(24,40,63);
+    box-shadow: 0 0 15px #d0e8f8,
+                0 0 15px #d0e8f8,
+                0 0 15px #d0e8f8,
+                0 0 15px #d0e8f8;
 }
 
 
@@ -50,7 +50,7 @@ fieldset legend{
 
 fieldset{
     font-weight: 100;
-    margin: 0px 30%;
+    margin: 0px 20%;
     text-align: center;
 }
 
@@ -61,9 +61,11 @@ fieldset button{
 }
 
 input, textarea, select {
-    margin: 2% 0;
-    padding:3px;
-    border:1px solid rgb(24,40,63);
+    margin: 1% 0;
+    padding: 10px;
+    border: .1px solid rgb(24,40,63);
     width: 200px;
-    box-shadow:1px 1px 2px #C0C0C0 inset;
-    }
+    background-color: #d0e8f8;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+}
+

@@ -10,26 +10,22 @@
         <fieldset>
             <legend>Création de votre compte</legend>
             <br>
-            <label for="nom">Nom</label>
-            <br>
-            <input type="text" name="nom" id="nom" required placeholder="Nom">
-            <br>
-            <label for="prenom">Prénom</label>
-            <br>
-            <input type="text" name="prenom" required placeholder="Prenom">
-            <br>
             <label for="pseudo">Pseudo</label>
             <br>
             <input type="text" name="pseudo" required placeholder="Pseudo">
-            <br>
+            <br><br>
             <label for="email">Email</label>
             <br>
             <input type="email" name="email" required placeholder="prenom.nom@exemple.com">
+            <br><br>
+            <label for="pwd">Mot de passe</label>
             <br>
-            <label for="mdp">Mot de passe</label>
+            <input type="password" name="pwd" required placeholder="Mot de passe">
+            <br><br>
+            <label for="pwd_conf">Confirmer mot de passe</label>
             <br>
-            <input type="password" name="mdp" required placeholder="Mot de passe">
-            <br>
+            <input type="password" name="pwd_conf" required placeholder="Confirmer mot de passe">
+            <br><br>
             <button type="submit">Créer mon compte</button>
             <br><br>
 

@@ -17,7 +17,7 @@
             <label for="mdp">Mot de passe</label>
             <br>
             <input type="password" name="mdp" required placeholder="Mot de passe">
-            <br>
+            <br><br>
             <button type="submit">Se connecter</button>
             <br><br>
         </fieldset>
