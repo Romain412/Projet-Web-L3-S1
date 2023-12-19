@@ -1,0 +1,29 @@
+[
+'nom' => 'LEC',
+'logo' => '/img/ligues/logo_lec.png',
+'created_at' => now(),
+],
+
+[
+'nom' => 'LFL',
+'logo' => '/img/ligues/logo_lfl.png',
+'created_at' => now(),
+],
+
+[
+'nom' => 'LCK',
+'logo' => '/img/ligues/logo_lck.png',
+'created_at' => now(),
+],
+
+[
+'nom' => 'World',
+'logo' => '/img/ligues/logo_world.png',
+'created_at' => now(),
+],
+
+[
+'nom' => 'MSI',
+'logo' => '/img/ligues/logo_msi.png',
+'created_at' => now(),
+],

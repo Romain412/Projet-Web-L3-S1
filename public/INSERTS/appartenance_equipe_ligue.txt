@@ -1,0 +1,150 @@
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Excel')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Karmine Corp')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'MAD Lions')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Rogue')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'SK Gaming')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Team BDS')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Aegis')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Kcorp Academy')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'BK ROG Esports')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Vitality Bee')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'GameWard')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Team Du Sud')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Team GO')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Solary')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'BDS Academy')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', 'Gentlemates')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠Dplus KIA')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠DRX')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠Gen.G')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠Hanwha Life')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠KT Rolster')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠Kwangdong Freecs')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠Liiv SANDBOX')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠NS RedForce')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠OK BRION')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],
+[
+'ref_equipe' => DB::table('equipes')->where('nom', '⁠T1')->value('id_equipe'),
+'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
+'created_at' => now(),
+],

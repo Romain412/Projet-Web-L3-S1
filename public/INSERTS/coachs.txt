@@ -1,0 +1,150 @@
+[
+'pseudo' => 'Hidon',
+'image' => '/img/coachs/hidon.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Nightshare',
+'image' => '/img/coachs/nightshare.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Dylan Falco',
+'image' => '/img/coachs/dylan_falco.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'YamatoCannon',
+'image' => '/img/coachs/yamatocannon.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Malzhet',
+'image' => '/img/coachs/malzhet.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Fredy122',
+'image' => '/img/coachs/fredy122.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Swiffer',
+'image' => '/img/coachs/swiffer.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Striker',
+'image' => '/img/coachs/striker.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Peter Dun',
+'image' => '/img/coachs/peter_dun.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Mac',
+'image' => '/img/coachs/mac.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Chama',
+'image' => '/img/coachs/chama.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Wadi',
+'image' => '/img/coachs/wadi.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Craft1x',
+'image' => '/img/coachs/craft1x.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Nahovsky',
+'image' => '/img/coachs/nahovsky.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Fara',
+'image' => '/img/coachs/fara.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Halier',
+'image' => '/img/coachs/halier.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Duke',
+'image' => '/img/coachs/duke.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Cook',
+'image' => '/img/coachs/cook.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Arvindir',
+'image' => '/img/coachs/arvindir.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Hansen',
+'image' => '/img/coachs/hansen.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Zefa',
+'image' => '/img/coachs/zefa.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Micro',
+'image' => '/img/coachs/micro.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'FIFAHUN',
+'image' => '/img/coachs/fifahun.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'DanDy',
+'image' => '/img/coachs/dandy.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Hirai',
+'image' => '/img/coachs/hirai.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Cain',
+'image' => '/img/coachs/cain.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Ryu',
+'image' => '/img/coachs/ryu.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Irean',
+'image' => '/img/coachs/irean.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Edgar',
+'image' => '/img/coachs/edgar.png',
+'created_at' => now(),
+]
+[
+'pseudo' => 'Kkoma',
+'image' => '/img/coachs/kkoma.png',
+'created_at' => now(),
+]

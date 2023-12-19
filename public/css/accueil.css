@@ -1,0 +1,148 @@
+/*              SIDE-BAR                */
+
+#sidebar {
+    position: fixed;
+    top: 10%;
+    width: 10%;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #bbdaf0;
+    z-index: 1;
+}
+
+#sidebar a {
+    position: relative;
+    overflow: hidden;
+    color: #18181a;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10% 10% 10% 10%;
+    margin-top: 30%;
+    text-decoration: none;
+    color: white;
+    background: #3d6fac;
+    width: 50%;
+    align-items: center;
+}
+
+#sidebar h3{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/*              CONTENT             */
+
+body{
+    margin-left: 10%;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    margin-left: 1%;
+}
+
+#vitrine_accueil a{
+    flex: 31%; 
+    margin: 5px;
+    margin-left: 3%;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 13px rgb(227, 227, 227);
+    background-color: rgb(227, 227, 227);
+}
+
+
+#vitrine_accueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.type_match{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+/*              BET-BOX             */
+.bet-box {
+    flex: 31%;
+    margin: 5px;
+    gap: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style pour le texte à l'intérieur des cases de pari */
+.bet-text {
+    text-align: center;
+    color: #293042;
+}
+
+.bet-box img {
+    max-width: 100%; /* Pour que l'image ne dépasse pas la largeur de la case */
+    width: 13%;
+    height: auto;
+    top: 0%;
+}
+
+
+/*              PRESS-BOX            */
+
+.press-box {
+    margin: 5px;
+    margin-left: 1.5%;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    border: solid 13px rgb(227, 227, 227);
+    background-color: rgb(227, 227, 227);
+}
+
+/* Style pour le texte à l'intérieur des cases de presse */
+.press-text {
+    left: 100%;
+    padding: 10px;
+    width: 75%;
+    margin-left: 10%;
+    max-width: 75%;
+    color: #293042;
+    max-height: 150px; /* Hauteur maximale du texte avant le défilement */
+    overflow-y: auto; /* Activation du défilement vertical si le contenu est trop grand */
+}
+
+.press-box img {
+    max-width: 100%; /* Pour que l'image ne dépasse pas la largeur de la case */
+    width: 17%;
+    height: auto;
+    top: 0%;
+    left: 0%;
+}
+
+hr{
+    border: 0;
+    clear:both;
+    display:flex;
+    width: 100%;               
+    background-color: black;
+    height: 2px;
+}
+
+/*              FOOTER               */
+
+footer{
+    width: 90%;
+}

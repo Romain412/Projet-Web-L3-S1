@@ -1,0 +1,750 @@
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Odoamne')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Excel')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Peach')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Excel')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jackies')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Excel')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Patrik')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Excel')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Ignar')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Excel')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Cabochard')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Fnatic')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Bo')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Fnatic')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Saken')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Fnatic')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Upset')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Fnatic')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Targamas')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Fnatic')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Broken Blade')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'G2 Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Yike')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'G2 Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Caps')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'G2 Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hans Sama')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'G2 Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Mikyx')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'G2 Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Oscarinin')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Karmine Corp')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Razork')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Karmine Corp')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Humanoid')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Karmine Corp')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Noah')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Karmine Corp')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jun')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Karmine Corp')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Wunder')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'MAD Lions')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jankos')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'MAD Lions')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Perkz')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'MAD Lions')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Flakked')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'MAD Lions')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kaiser')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'MAD Lions')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Photon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Rogue')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Daglas')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Rogue')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Vetheo')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Rogue')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Carzzy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Rogue')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hylissang')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Rogue')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Szygenda')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'SK Gaming')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Markoon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'SK Gaming')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Larssen')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'SK Gaming')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Comp')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'SK Gaming')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Zoelys')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'SK Gaming')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Myrwn')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team BDS')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Elyoya')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team BDS')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Fresskowy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team BDS')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Supa')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team BDS')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Alvaro')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team BDS')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Adam')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Heretics')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Sheo')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Heretics')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Nuc')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Heretics')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Ice')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Heretics')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Labrov')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Heretics')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Irrelevant')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Vitality')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Isma')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Vitality')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Nisqy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Vitality')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Exakick')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Vitality')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Doss')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Vitality')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Agresivoo')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Aegis')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Ryuzaki')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Aegis')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Nafkelah')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Aegis')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hid0')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Aegis')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Veignorem')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Aegis')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Marynter')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Kcorp Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Lyncas')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Kcorp Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Vladi')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Kcorp Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Caliste')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Kcorp Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Fleshy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Kcorp Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Howling')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BK ROG Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', '113')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BK ROG Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Czekolad')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BK ROG Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hans SamD')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BK ROG Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hantera')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BK ROG Esports')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Naak Nako')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Vitality Bee')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Selfmade')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Vitality Bee')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Czajek')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Vitality Bee')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jopa')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Vitality Bee')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Stend')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Vitality Bee')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Pride')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'GameWard')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Zicssi')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'GameWard')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Peng')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'GameWard')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Matias')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'GameWard')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Steeelback')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'GameWard')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'SLT')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Du Sud')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'TynX')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Du Sud')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'FEBIVEN')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Du Sud')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Coldraa')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Du Sud')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'HONOR')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team Du Sud')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Lot')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team GO')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Boukada')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team GO')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Six10')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team GO')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jezu')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team GO')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Prime')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Team GO')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kryze')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Solary')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Eckas')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Solary')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Decay')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Solary')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Innaxe')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Solary')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Myrthus')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Solary')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'JNX')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BDS Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'SkewMond')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BDS Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Reeker')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BDS Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Rekdull')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BDS Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Parus')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'BDS Academy')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Ragner')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Gentlemates')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'White')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Gentlemates')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Eika')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Gentlemates')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'BAO')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Gentlemates')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kamilius')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'Gentlemates')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kingen')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Dplus KIA')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Lucid')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Dplus KIA')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'ShowMaker')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Dplus KIA')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Aiming')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Dplus KIA')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kellin')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Dplus KIA')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Rascal')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠DRX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Sponge')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠DRX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'SeTab')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠DRX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Teddy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠DRX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Pleata')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠DRX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Kiin')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Gen.G')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Canyon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Gen.G')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Chovy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Gen.G')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Peyz')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Gen.G')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Lehends')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Gen.G')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Doran')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Hanwha Life')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Peanut')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Hanwha Life')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Zeka')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Hanwha Life')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Viper')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Hanwha Life')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Delight')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Hanwha Life')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'PerfecT')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠KT Rolster')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Pyosik')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠KT Rolster')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Bdd')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠KT Rolster')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Deft')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠KT Rolster')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'BeryL')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠KT Rolster')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'DuDu')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Kwangdong Freecs')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'YoungJae')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Kwangdong Freecs')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'BuLLDoG')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Kwangdong Freecs')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Taeyoon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Kwangdong Freecs')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Andil')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Kwangdong Freecs')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Clear')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Liiv SANDBOX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Willer')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Liiv SANDBOX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Clozer')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Liiv SANDBOX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Hena')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Liiv SANDBOX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'JeongHoon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠Liiv SANDBOX')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'DnDn')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠NS RedForce')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Sylvie')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠NS RedForce')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'FIESTA')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠NS RedForce')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Jiwoo')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠NS RedForce')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Peter')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠NS RedForce')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Morgan')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠OK BRION')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'gideon')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠OK BRION')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Karis')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠OK BRION')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Envyy')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠OK BRION')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Effort')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠OK BRION')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Zeus')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠T1')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Oner')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠T1')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Faker')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠T1')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Gumayusi')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠T1')->value('id_equipe'),
+'created_at' => now(),
+],
+[
+'ref_joueur' => DB::table('joueurs')->where('pseudo', 'Keria')->value('id_joueur'),
+'ref_equipe' => DB::table('equipes')->where('nom' ,'⁠T1')->value('id_equipe'),
+'created_at' => now(),
+],

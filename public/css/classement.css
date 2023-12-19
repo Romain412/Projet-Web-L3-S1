@@ -1,0 +1,71 @@
+/*               Main               */
+
+/* au dessus du classement */
+h2 {
+    margin-left: 1%;
+    font-size: 46px;
+}
+
+#ClassementAmis {
+    margin-left: 3%;
+}
+
+/* Style pour le tableau */
+
+table {
+    width: 94%;
+    border-collapse: collapse;
+    /*margin-top: 1px;*/
+    margin-left: 3%; /* Ajout d'une marge à gauche */
+}
+
+th, td {
+    border: 2px solid #676767;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Ajout de styles pour les lignes impaires du tableau */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Style pour la hover effect sur les lignes du tableau */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Styles pour les trois premiers */
+tr:nth-child(1) {
+    background-color: #c1ffc1;
+    font-weight: bold;
+}
+
+tr:nth-child(2) {
+    background-color: #e4f39a;
+    font-weight: bold;
+}
+
+tr:nth-child(3) {
+    background-color:  #f4ea8e;
+    font-weight: bold;
+}
+
+/* Style pour le dernier élément du tableau */
+tr:last-child {
+    background-color: #ffb6c1;
+    font-weight: bold;
+}
+
+button{
+    padding: 1%;
+    margin : 0 0 .1% 0;
+    text-decoration: none;
+    color: white;
+    background: #3d6fac;
+    align-items: center;
+}
