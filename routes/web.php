@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,24 +17,34 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function() {
     return view('accueil');
-});
+})->name('accueil');
 
 Route::get('/classement', function() {
     return view('classement');
-});
+})->name('classement');
 
 Route::get('/connexion', function() {
     return view('connexion');
-});
+})->name('connexion');
 
 Route::get('/inscription', function() {
     return view('inscription');
-});
+})->name('inscription');
 
 Route::get('/joueurs', function(){
     return view('joueurs');
 });
 
-Route::get('/1/{id?}', function($id = null){
+Route::get('/1/{id}', function($id = null){
     return 'test : '.$id;
-})->where('id','[0-9]+');
+})->where([
+    'id' => '[0-9]+'
+]
+);
+
+Route::get('/test', function(Request $request){
+    return [
+        "name" => $_GET['name'],
+        "Article 1" => "test"
+    ];
+});
