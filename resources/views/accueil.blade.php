@@ -13,7 +13,6 @@
     <a href="page5.php">LFL</a>
 </nav>
 
-
 <!-- Le texte de votre page va ici -->
 <h1>PARIS DU JOUR</h1>
 
@@ -64,7 +63,7 @@
         <img src='/img/equipes/logo_dplus_kia.png' alt="Logo_Dplus_KIA">
         <div class="bet-text">
             <h3>Dplus KIA   VS   Team Heretics</h3>
-            <h4>19/12/2023 - 18h00</h4>
+            <h4>20/12/2023 - 18h00</h4>
             <p class="type_match">BO 3</p>
         </div>
         <img src='/img/equipes/logo_team_heretics.png' alt="Logo_Team_Heretics">
@@ -74,7 +73,7 @@
         <img src='/img/equipes/logo_sk_gaming.png' alt="Logo_SK_Gaming">
         <div class="bet-text">
             <h3>SK Gaming   VS   Rogue</h3>
-            <h4>19/12/2023 - 19h00</h4>
+            <h4>20/12/2023 - 19h00</h4>
             <p class="type_match">BO 1</p>
         </div>
         <img src='/img/equipes/logo_rogue.png' alt="Logo_Rogue">
