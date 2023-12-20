@@ -53,7 +53,7 @@
         </div>
         
         <hr>
-        
+
         <p>© 2023 BetOfLegends, Inc. Tous droits réservé</p>
 
     </footer>
