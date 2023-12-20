@@ -11,8 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('matchs', function (Blueprint $table) {
-            $table->id('id_match');
+        Schema::create('rencontres', function (Blueprint $table) {
+            $table->id('id_rencontre');
             $table->unsignedBigInteger('ref_equipe1');
             $table->unsignedBigInteger('ref_equipe2');
             $table->integer('format');
