@@ -98,7 +98,7 @@ nav a{
 body{
     font-family: 'Space Grotesk', sans-serif;
     color: #293042;
-    margin-top: 10%;
+    margin: 6% 0 0 0;
     background-color: white;
 }
 
@@ -121,6 +121,7 @@ hr{
 footer{
     background-color: #ababab;
     width: 100%;
+    margin-left: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

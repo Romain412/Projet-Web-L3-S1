@@ -6,17 +6,18 @@
 @section('content')
 
     <br><br>
-    <form action="inscription.php" method="post">
+    <form action="/inscription" method="post"> <!-- inscription.php au lieu de /inscription-->
+        {{ csrf_field() }}
         <fieldset>
             <legend>Création de votre compte</legend>
             <br>
             <label for="pseudo">Pseudo</label>
             <br>
-            <input type="text" name="pseudo" required placeholder="Pseudo">
+            <input type="text" name="pseudo" required placeholder="Pseudo" value = "{{ old('pseudo') }}">
             <br><br>
             <label for="email">Email</label>
             <br>
-            <input type="email" name="email" required placeholder="prenom.nom@exemple.com">
+            <input type="email" name="email" required placeholder="prenom.nom@exemple.com" value = "{{ old('email')}}">
             <br><br>
             <label for="pwd">Mot de passe</label>
             <br>
@@ -36,7 +37,7 @@
     <p>Déjà client ? :</p>
     <a href="/connexion"><button>Se connecter</button></a>
     </div>
-    <br>
+    
 
     <script>document.getElementById('nom').focus();</script>
 

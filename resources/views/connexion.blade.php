@@ -7,12 +7,13 @@
 
     <br><br>
     <form action="connexion.php" method="post">
+        {{ csrf_field() }}
         <fieldset>
             <legend>Entrez vos identifiants</legend>
             <br>
             <label for="email">Email</label>
             <br>
-            <input type="email" name="email" id="email" required placeholder="prenom.nom@exemple.com">
+            <input type="email" name="email" id="email" required placeholder="prenom.nom@exemple.com" value = "{{ old('email')}}">
             <br><br>
             <label for="mdp">Mot de passe</label>
             <br>
@@ -28,7 +29,6 @@
     <p>Pas encore de compte :</p>
     <a href="/inscription"><button>Creer un compte</button></a>
     </div>
-    <br>
 
     <script>document.getElementById('email').focus();</script>
 

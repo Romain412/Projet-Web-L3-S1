@@ -48,3 +48,23 @@ Route::get('/test', function(Request $request){
         "Article 1" => "test"
     ];
 });
+
+
+/*              ROUTES POST             */
+
+Route::post('/inscription',function(){
+    request()->validate([
+        'email' => [],
+        'pseudo' => ['min:5'],
+        'pwd' => ['confirmed', 'min:8'],
+        'pwd_conf' => [],
+    ]);
+
+    $utilisateur = App\Utilisateur::create([
+        'email' => request('email'),
+        'pseudo' => request('pseudo'),
+        'password' => bcrypt(request('password')),
+    ]);
+
+});
+
