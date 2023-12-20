@@ -5,6 +5,12 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Coach;
+use App\Models\Equipe;
+use App\Models\Ligue;
+use App\Models\Appartenance_equipe_ligue;
+use App\Models\Utilisateur;
+use App\Models\Rencontre;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,437 +19,375 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {        
-        DB::table('coachs')->insert([
+ 
+/*              AJOUT DES COACHS                */
+        
 
-            [
+        Coach::create([
             'pseudo' => 'Hidon',
             'image' => '/img/coachs/hidon.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Nightshare',
             'image' => '/img/coachs/nightshare.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Dylan Falco',
             'image' => '/img/coachs/dylan_falco.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'YamatoCannon',
             'image' => '/img/coachs/yamatocannon.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Malzhet',
             'image' => '/img/coachs/malzhet.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Fredy122',
             'image' => '/img/coachs/fredy122.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Swiffer',
             'image' => '/img/coachs/swiffer.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Striker',
             'image' => '/img/coachs/striker.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Peter Dun',
             'image' => '/img/coachs/peter_dun.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Mac',
             'image' => '/img/coachs/mac.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Chama',
             'image' => '/img/coachs/chama.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Wadi',
             'image' => '/img/coachs/wadi.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Craft1x',
             'image' => '/img/coachs/craft1x.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Nahovsky',
             'image' => '/img/coachs/nahovsky.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Fara',
             'image' => '/img/coachs/fara.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Halier',
             'image' => '/img/coachs/halier.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Duke',
             'image' => '/img/coachs/duke.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Cook',
             'image' => '/img/coachs/cook.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Arvindir',
             'image' => '/img/coachs/arvindir.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Hansen',
             'image' => '/img/coachs/hansen.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Zefa',
             'image' => '/img/coachs/zefa.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Micro',
             'image' => '/img/coachs/micro.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'FIFAHUN',
             'image' => '/img/coachs/fifahun.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'DanDy',
             'image' => '/img/coachs/dandy.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Hirai',
             'image' => '/img/coachs/hirai.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Cain',
             'image' => '/img/coachs/cain.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Ryu',
             'image' => '/img/coachs/ryu.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Irean',
             'image' => '/img/coachs/irean.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Edgar',
             'image' => '/img/coachs/edgar.png',
-            'created_at' => now(),
-            ],
-
-            [
+        ]);
+            
+        Coach::create([
             'pseudo' => 'Kkoma',
             'image' => '/img/coachs/kkoma.png',
-            'created_at' => now(),
-            ],
-
         ]);
+            
+        
+/*              AJOUT DES EQUIPES               */
 
-        DB::table('equipes')->insert([
-
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Hidon')->value('id_coach'),
             'nom' => 'Excel',
             'logo' => '/img/equipes/logo_excel.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Nightshare')->value('id_coach'),
             'nom' => 'Fnatic',
             'logo' => '/img/equipes/logo_fnatic.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Dylan Falco')->value('id_coach'),
             'nom' => 'G2 Esports',
             'logo' => '/img/equipes/logo_g2_esports.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'YamatoCannon')->value('id_coach'),
             'nom' => 'Karmine Corp',
             'logo' => '/img/equipes/logo_karmine_corp.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Malzhet')->value('id_coach'),
             'nom' => 'MAD Lions',
             'logo' => '/img/equipes/logo_mad_lions.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Fredy122')->value('id_coach'),
             'nom' => 'Rogue',
             'logo' => '/img/equipes/logo_rogue.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Swiffer')->value('id_coach'),
             'nom' => 'SK Gaming',
             'logo' => '/img/equipes/logo_sk_gaming.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Striker')->value('id_coach'),
             'nom' => 'Team BDS',
             'logo' => '/img/equipes/logo_team_bds.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Peter Dun')->value('id_coach'),
             'nom' => 'Team Heretics',
             'logo' => '/img/equipes/logo_team_heretics.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Mac')->value('id_coach'),
             'nom' => 'Team Vitality',
             'logo' => '/img/equipes/logo_team_vitality.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Chama')->value('id_coach'),
             'nom' => 'Aegis',
             'logo' => '/img/equipes/logo_aegis.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Wadi')->value('id_coach'),
             'nom' => 'Kcorp Academy',
             'logo' => '/img/equipes/logo_kcorp_academy.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Craft1x')->value('id_coach'),
             'nom' => 'BK ROG Esports',
             'logo' => '/img/equipes/logo_bk_rog_esports.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Nahovsky')->value('id_coach'),
             'nom' => 'Vitality Bee',
             'logo' => '/img/equipes/logo_vitality_bee.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Fara')->value('id_coach'),
             'nom' => 'GameWard',
             'logo' => '/img/equipes/logo_gameward.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Halier')->value('id_coach'),
             'nom' => 'Team Du Sud',
             'logo' => '/img/equipes/logo_team_du_sud.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Duke')->value('id_coach'),
             'nom' => 'Team GO',
             'logo' => '/img/equipes/logo_team_go.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Cook')->value('id_coach'),
             'nom' => 'Solary',
             'logo' => '/img/equipes/logo_solary.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Arvindir')->value('id_coach'),
             'nom' => 'BDS Academy',
             'logo' => '/img/equipes/logo_bds_academy.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Hansen')->value('id_coach'),
             'nom' => 'Gentlemates',
             'logo' => '/img/equipes/logo_gentlemates.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Zefa')->value('id_coach'),
             'nom' => '⁠Dplus KIA',
             'logo' => '/img/equipes/logo_⁠dplus_kia.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Micro')->value('id_coach'),
             'nom' => '⁠DRX',
             'logo' => '/img/equipes/logo_⁠drx.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'FIFAHUN')->value('id_coach'),
             'nom' => '⁠Gen.G',
             'logo' => '/img/equipes/logo_⁠gen_g.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'DanDy')->value('id_coach'),
             'nom' => '⁠Hanwha Life',
             'logo' => '/img/equipes/logo_⁠hanwha_life.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Hirai')->value('id_coach'),
             'nom' => '⁠KT Rolster',
             'logo' => '/img/equipes/logo_⁠kt_rolster.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Cain')->value('id_coach'),
             'nom' => '⁠Kwangdong Freecs',
             'logo' => '/img/equipes/logo_⁠kwangdong_freecs.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Ryu')->value('id_coach'),
             'nom' => '⁠Liiv SANDBOX',
             'logo' => '/img/equipes/logo_⁠liiv_sandbox.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Irean')->value('id_coach'),
             'nom' => '⁠NS RedForce',
             'logo' => '/img/equipes/logo_⁠ns_redforce.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Edgar')->value('id_coach'),
             'nom' => '⁠OK BRION',
             'logo' => '/img/equipes/logo_⁠ok_brion.png',
-            'created_at' => now(),
-            ],
+        ]);
 
-            [
+        Equipe::create([
             'ref_coach' => DB::table('coachs')->where('pseudo', 'Kkoma')->value('id_coach'),
             'nom' => '⁠T1',
             'logo' => '/img/equipes/logo_⁠t1.png',
-            'created_at' => now(),
-            ],              
-
         ]);
+        
 
-        DB::table('ligues')->insert([
+/*              AJOUT DES LIGUES                */
 
-            [
+
+        Ligue::create([
             'nom' => 'LEC',
             'logo' => '/img/ligues/logo_lec.png',
-            'created_at' => now(),
-            ],
-            
-            [
+        ]);
+
+        Ligue::create([
             'nom' => 'LFL',
             'logo' => '/img/ligues/logo_lfl.png',
-            'created_at' => now(),
-            ],
-            
-            [
+        ]);
+
+        Ligue::create([
             'nom' => 'LCK',
             'logo' => '/img/ligues/logo_lck.png',
-            'created_at' => now(),
-            ],
-            
-            [
+        ]);
+
+        Ligue::create([
             'nom' => 'World',
             'logo' => '/img/ligues/logo_world.png',
-            'created_at' => now(),
-            ],
-            
-            [
+        ]);
+
+        Ligue::create([
             'nom' => 'MSI',
             'logo' => '/img/ligues/logo_msi.png',
-            'created_at' => now(),
-            ],
-
         ]);
+
+
+/*              AJOUT DES JOUEURS               */
+
 
         DB::table('joueurs')->insert([
 
@@ -2403,219 +2347,186 @@ class DatabaseSeeder extends Seeder
 
         ]);
 
-        DB::table('appartenances_equipe_ligue')->insert([
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Excel')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Karmine Corp')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'MAD Lions')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Rogue')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'), 
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'SK Gaming')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Team BDS')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LEC')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Aegis')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Kcorp Academy')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+            Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'BK ROG Esports')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'), 
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Vitality Bee')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'GameWard')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Team Du Sud')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Team GO')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Solary')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'BDS Academy')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', 'Gentlemates')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LFL')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠Dplus KIA')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠DRX')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠Gen.G')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠Hanwha Life')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠KT Rolster')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠Kwangdong Freecs')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠Liiv SANDBOX')->value('id_equipe'),
-            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+            'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),    
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠NS RedForce')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠OK BRION')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
+        ]);
             
-            [
+        Appartenance_equipe_ligue::create([
             'ref_equipe' => DB::table('equipes')->where('nom', '⁠T1')->value('id_equipe'),
             'ref_ligue' => DB::table('ligues')->where('nom' ,'LCK')->value('id_ligue'),
-            'created_at' => now(),
-            ],
         ]);
 
-        DB::table('utilisateurs')->insert([
-            
-            [
+
+/*              AJOUT DES UTILISATEURS            */
+
+
+        Utilisateur::create([
             'pseudo' => 'MisterFriz',
             'email' => 'misterfriz75@gmail.com',
-            'password' => bcrypt('JsuisTropBo'),
-            'created_at' => now(),
-            ],
-
-            [
-            'pseudo' => 'Kvn7',
-            'email' => 'kvn7@gmail.com',
-            'password' => bcrypt('ougaougA'),
-            'created_at' => now(),
-            ],
-
-            [
-            'pseudo' => 'Gromain',
-            'email' => 'gromain@gmail.com',
-            'password' => bcrypt('Enormain'),
-            'created_at' => now(),
-            ],
-
+            'password' => 'JsuisTropBo',
         ]);
 
-        DB::table('rencontres')->insert([
+        Utilisateur::create([
+            'pseudo' => 'Kvn7',
+            'email' => 'kvn7@gmail.com',
+            'password' => 'ougaougA',
+        ]);
+
+        Utilisateur::create([
+            'pseudo' => 'Gromain',
+            'email' => 'gromain@gmail.com',
+            'password' => 'Enormain',
+        ]);
+
+
+        Rencontre::create([
             'ref_equipe1' => '2',
             'ref_equipe2' => '4',
             'format' => '2',
             'date' => '2023-12-22 18:00:00'
         ]);
+
     }
 }
 

@@ -28,9 +28,11 @@ class UtilisateurController extends Controller
             $user->pseudo = $request->pseudo;
             $user->email = $request->email;
             $user->password = $request->pwd;
+            
+            $user->save();
         }
 
-        $user->save();
+        
 
         return redirect('/inscription')->with('status', 'Connexion réussie');
     }
