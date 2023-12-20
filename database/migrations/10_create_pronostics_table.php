@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('pronostics', function (Blueprint $table) {
             $table->unsignedBigInteger('ref_utilisateur');
-            $table->unsignedBigInteger('ref_match');
+            $table->unsignedBigInteger('ref_rencontre');
             $table->integer('score_equipe_1');
             $table->integer('score_equipe_2');
             
-            $table->primary(['ref_utilisateur', 'ref_match']);
-            $table->foreign('ref_match')->references('id_rencontre')->on('rencontres')->onDelete('cascade');
+            $table->primary(['ref_utilisateur', 'ref_rencontre']);
+            $table->foreign('ref_rencontre')->references('id_rencontre')->on('rencontres')->onDelete('cascade');
             $table->foreign('ref_utilisateur')->references('id_utilisateur')->on('utilisateurs')->onDelete('cascade');
 
             $table->timestamps();

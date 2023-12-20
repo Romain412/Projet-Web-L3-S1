@@ -16,6 +16,27 @@
 <!-- Le texte de votre page va ici -->
 <h1>PARIS DU JOUR</h1>
 
+<br>
+
+@php
+    $results = DB::select('SELECT a.nom AS nom1, b.nom AS nom2, c.date, c.format, d.nom
+FROM rencontres c, equipes a, equipes b, ligues d, appartenances_equipe_ligue aa
+WHERE d.nom = "LEC" AND aa.ref_ligue = d.id_ligue AND a.id_equipe = aa.ref_equipe AND c.ref_equipe1 = a.id_equipe AND c.ref_equipe2 = b.id_equipe '); 
+
+
+@endphp
+
+<ul>
+    @foreach($results as $result)
+        <li>{{ $result->format}}</li>
+        <li>{{ $result->date}}</li>
+        <li>{{ $result->nom1}}</li>
+        <li>{{ $result->nom2}}</li>
+
+        
+    @endforeach
+</ul>
+
 <!-- Code pour les cases de pari -->
 <section id="vitrine_accueil">
     <!-- Il faudra que ca soit fait avec une boucle php pour ne pas repeter le meme code 6 fois -->
