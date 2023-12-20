@@ -19,85 +19,83 @@
 <br>
 
 @php
-    $results = DB::select('SELECT a.nom AS nom1, b.nom AS nom2, c.date, c.format, d.nom
+    $infos = DB::select('SELECT a.nom AS nom1, b.nom AS nom2, c.date, c.format, d.nom
 FROM rencontres c, equipes a, equipes b, ligues d, appartenances_equipe_ligue aa
-WHERE d.nom = "LEC" AND aa.ref_ligue = d.id_ligue AND a.id_equipe = aa.ref_equipe AND c.ref_equipe1 = a.id_equipe AND c.ref_equipe2 = b.id_equipe '); 
+WHERE d.nom = "LEC" AND aa.ref_ligue = d.id_ligue AND a.id_equipe = aa.ref_equipe AND c.ref_equipe1 = a.id_equipe AND c.ref_equipe2 = b.id_equipe LIMIT 6'); 
 
+    $logos = DB::select('SELECT a.logo AS logo1, b.logo AS logo2 FROM equipes a, equipes b, rencontres c WHERE c.ref_equipe1 = a.id_equipe AND c.ref_equipe2 = b.id_equipe LIMIT 6');
 
 @endphp
 
 <ul>
-    @foreach($results as $result)
-        <li>{{ $result->format}}</li>
-        <li>{{ $result->date}}</li>
-        <li>{{ $result->nom1}}</li>
-        <li>{{ $result->nom2}}</li>
-
-        
+    @foreach($infos as $info)
+    @endforeach
+    @foreach($logos as $logo)
     @endforeach
 </ul>
+
 
 <!-- Code pour les cases de pari -->
 <section id="vitrine_accueil">
     <!-- Il faudra que ca soit fait avec une boucle php pour ne pas repeter le meme code 6 fois -->
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_solary.png' alt="Logo_Solary">
+        <img src='{{ $logo->logo1}}' alt="Logo_Team">
         <div class="bet-text">
-            <h3>Solary   VS   Team Go</h3>
-            <h4>19/12/2023 - 17h00</h4>
-            <p class="type_match">BO 3</p>
+            <h3>{{$info->nom1}}   VS   {{$info->nom2}}</h3>
+            <h4>{{$info->date}}</h4>
+            <p class="type_match">BO {{$info->format}}</p>
         </div>
-        <img src='/img/equipes/logo_team_go.png' alt="Logo_Team_Go">
+        <img src='{{ $logo->logo2}}' alt="Logo_Team">
     </div></a>
     
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_gentlemates.png' alt="Logo_Gentlemates">
+        <img src='/img/equipes/logo_gentlemates.png' alt="Logo_Team">
         <div class="bet-text">
             <h3>Gentlemates   VS   KT Rolster</h3>
             <h4>19/12/2023 - 18h00</h4>
             <p class="type_match">BO 1</p>
         </div>
-        <img src='/img/equipes/logo_kt_rolster.png' alt="Logo_KT_Rolster">
+        <img src='/img/equipes/logo_kt_rolster.png' alt="Logo_Team">
     </div></a>
 
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_liiv_sandbox.png' alt="Logo_Liiv_Sandbox">
+        <img src='/img/equipes/logo_liiv_sandbox.png' alt="Logo_Team">
         <div class="bet-text">
             <h3>Liiv Sandbox   VS   T1</h3>
             <h4>19/12/2023 - 19h00</h4>
             <p class="type_match">BO 2</p>
         </div>
-        <img src='/img/equipes/logo_t1.png' alt="Logo_T1">
+        <img src='/img/equipes/logo_t1.png' alt="Logo_Team">
     </div></a>
 
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_gen_g.png' alt="Logo_Gen_G">
+        <img src='/img/equipes/logo_gen_g.png' alt="Logo_Team">
         <div class="bet-text">
             <h3>Gen.G   VS   DRX</h3>
             <h4>20/12/2023 - 17h00</h4>
             <p class="type_match">BO 1</p>
         </div>
-        <img src='/img/equipes/logo_drx.png' alt="Logo_DRX">
+        <img src='/img/equipes/logo_drx.png' alt="Logo_Team">
     </div></a>
     
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_dplus_kia.png' alt="Logo_Dplus_KIA">
+        <img src='/img/equipes/logo_dplus_kia.png' alt="Logo_Team">
         <div class="bet-text">
             <h3>Dplus KIA   VS   Team Heretics</h3>
             <h4>20/12/2023 - 18h00</h4>
             <p class="type_match">BO 3</p>
         </div>
-        <img src='/img/equipes/logo_team_heretics.png' alt="Logo_Team_Heretics">
+        <img src='/img/equipes/logo_team_heretics.png' alt="Logo_Team">
     </div></a>
 
     <div class="bet-box"><a href="">
-        <img src='/img/equipes/logo_sk_gaming.png' alt="Logo_SK_Gaming">
+        <img src='/img/equipes/logo_sk_gaming.png' alt="Logo_Team">
         <div class="bet-text">
             <h3>SK Gaming   VS   Rogue</h3>
             <h4>20/12/2023 - 19h00</h4>
             <p class="type_match">BO 1</p>
         </div>
-        <img src='/img/equipes/logo_rogue.png' alt="Logo_Rogue">
+        <img src='/img/equipes/logo_rogue.png' alt="Logo_Team">
     </div></a>
     
 </section>
@@ -156,4 +154,3 @@ WHERE d.nom = "LEC" AND aa.ref_ligue = d.id_ligue AND a.id_equipe = aa.ref_equip
 
 
 @endsection
-
