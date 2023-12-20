@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use App\Http\Controllers\UtilisateurController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,23 +53,4 @@ Route::get('/test', function(Request $request){
 
 /*              ROUTES POST             */
 
-Route::post('/inscription',function(){
-    request()->validate([
-        'email' => ['required'],
-        'pseudo' => ['required', 'min:5'],
-        'pwd' => ['required', 'confirmed', 'min:8'],
-        'pwd_confirmation' => ['required'],
-    ],
-    [
-        'pwd.min' => 'Veuillez saisir un mot de passe d\'au moins :min caractères !'
-    ]
-    );
-
-    $utilisateur = App\Utilisateur::create([
-        'email' => request('email'),
-        'pseudo' => request('pseudo'),
-        'password' => bcrypt(request('password')),
-    ]);
-
-});
-
+Route::post('/inscription', [UtilisateurController::class, 'ajouter_utilisateur']);
