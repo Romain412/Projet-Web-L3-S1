@@ -2520,11 +2520,49 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
+/*              AJOUT RENCONTRES                */
+
+
         Rencontre::create([
-            'ref_equipe1' => '2',
-            'ref_equipe2' => '4',
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
+            'format' => '1',
+            'date' => '2023-12-20 19:00:00'
+        ]);
+        
+        Rencontre::create([
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'MAD Lions')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'Rogue')->value('id_equipe'),
+            'format' => '3',
+            'date' => '2023-12-20 20:00:00'
+        ]);
+        
+        Rencontre::create([
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'SK Gaming')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'Team BDS')->value('id_equipe'),
+            'format' => '3',
+            'date' => '2023-12-20 21:00:00'
+        ]);
+        
+        Rencontre::create([
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+            'format' => '2', 
+            'date' => '2023-12-21 17:00:00'
+        ]);
+        
+        Rencontre::create([
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'Karmine Corp')->value('id_equipe'),
+            'format' => '1',
+            'date' => '2023-12-21 18:00:00'
+        ]);
+
+        Rencontre::create([
+            'ref_equipe1' => DB::table('equipes')->where('nom', 'SK Gaming')->value('id_equipe'),
+            'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
             'format' => '2',
-            'date' => '2023-12-22 18:00:00'
+            'date' => '2023-12-21 19:00:00'
         ]);
 
     }
