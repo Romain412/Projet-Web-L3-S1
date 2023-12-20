@@ -2609,6 +2609,13 @@ class DatabaseSeeder extends Seeder
             ],
 
         ]);
+
+        DB::table('rencontres')->insert([
+            'ref_equipe1' => '2',
+            'ref_equipe2' => '4',
+            'format' => '2',
+            'date' => '2023-12-22 18:00:00'
+        ]);
     }
 }
 

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('score_equipe_2');
             
             $table->primary(['ref_utilisateur', 'ref_match']);
-            $table->foreign('ref_match')->references('id_match')->on('matchs')->onDelete('cascade');
+            $table->foreign('ref_match')->references('id_rencontre')->on('rencontres')->onDelete('cascade');
             $table->foreign('ref_utilisateur')->references('id_utilisateur')->on('utilisateurs')->onDelete('cascade');
 
             $table->timestamps();
