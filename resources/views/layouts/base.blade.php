@@ -27,7 +27,7 @@
 
     <footer>
         <!-- Mettre le footer ici -->
-        <div>
+        <div id="footer_block">
             <ul id="serviceclients">
                 <h3>Service Clients</h3>
                 <li><a href="mailto:contact@bol.fr ?subject=Demande client">Nous contacter</a></li>
@@ -44,17 +44,18 @@
 
             <ul id="legal">
                 <h3>Légal</h3>
-                <li><a href="">Conditions Générales de Vente</a></li>
+                <li><a href="">Conditions Générales d'Utilisation</a></li>
                 <li><a href="">Confidentialité et cookies</a></li>
-                <li><a href="">Droit légal de rétractation</a></li>
+                <li><a href="">Droit légal d'accès aux données</a></li>
 
             </ul>
 
         </div>
         
         <hr>
-
+        
         <p>© 2023 BetOfLegends, Inc. Tous droits réservé</p>
+
     </footer>
 
 </body>

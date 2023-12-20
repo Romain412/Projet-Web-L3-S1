@@ -122,11 +122,12 @@ footer{
     background-color: #ababab;
     width: 100%;
     margin-left: 0%;
-    display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 1%;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: space-around;
-    position: absolute;
-    flex-direction: row;
+    /* position: absolute; */
+    /* flex-direction: row; */
     text-align: center;
 }
 
