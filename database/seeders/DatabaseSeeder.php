@@ -2493,8 +2493,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Rencontre::create([
-        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
-        'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'DRX')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Gen.G')->value('id_equipe'),
         'format' => '2', 
         'date' => '2023-12-21 17:00:00'
         ]);
