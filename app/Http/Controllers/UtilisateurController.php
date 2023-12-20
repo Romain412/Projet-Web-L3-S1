@@ -15,7 +15,7 @@ class UtilisateurController extends Controller
             'pwd' => ['required', 'confirmed', 'min:8'],
             'pwd_confirmation' => ['required'],
         ],
-        [   // trouver le moyen d'afficher cette merde
+        [ 
             'pseudo.min' => 'Veuillez saisir un pseudo d\'au moins :min caractères !',
             'pwd.min' => 'Veuillez saisir un mot de passe d\'au moins :min caractères !',
             'pwd.confirmed' => 'Veuillez saisir le même mot de passe !',
@@ -28,8 +28,6 @@ class UtilisateurController extends Controller
             $user->pseudo = $request->pseudo;
             $user->email = $request->email;
             $user->password = $request->pwd;
-        }else{
-            //qlq chose pour afficher les erreurs
         }
 
         $user->save();

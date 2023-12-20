@@ -45,16 +45,14 @@
             <input type="password" name="pwd_confirmation" required placeholder="Confirmer mot de passe">
             <br><br>
 
-            @if($errors->has('pseudo'))
-            <p class="text-error">{{ $errors->first('pseudo') }}</p>
-            @endif
-
-            @if($errors->has('pwd.min'))
-            <p class="text-error">Veuillez saisir un mot de passe d'au moins 5 caractères !</p>
-            @endif
-
-            @if($errors->has('pwd'))
-                <p class="text-error">{{ $errors->first('pwd') }}</p>
+            @if ($errors->any())
+                <div class="text-error">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <p>{{ $error }}</p>
+                        @endforeach
+                    </ul>
+                </div>
             @endif
 
             <button type="submit">Créer mon compte</button>
