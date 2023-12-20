@@ -5,14 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Appartenance_joueur_equipe extends Model
+class Joueur extends Model
 {
     use HasFactory;
 
-    protected $table = 'appartenances_joueur_equipe';
+    protected $table = 'joueurs';
     protected $fillable = [
-        'id_appartenance',
-        'ref_joueur',
-        'ref_equipe'
+        'id_joueur',
+        'poste',
+        'image',
+        'pseudo'
     ];
 }
