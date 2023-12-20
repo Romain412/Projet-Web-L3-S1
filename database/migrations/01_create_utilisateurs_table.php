@@ -32,23 +32,3 @@ return new class extends Migration
         Schema::dropIfExists('utilisateurs');
     }
 };
-
-/*
-ordre de création des tables :
-
-1.  Utilisateur
-2.  Amitié
-3.  Coach
-4.  Equipe
-5.  Ligue
-6.  Appartenance_ligue_equipe
-7.  Groupe
-8.  Appartenance_groupe
-9.  Match
-10. Joueur
-11. Appartenance_equipe_joueur
-12. Champion
-13. Stats_joueur_champion
-14. Pronostic
-
-*/

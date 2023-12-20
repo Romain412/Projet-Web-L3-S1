@@ -54,11 +54,15 @@ Route::get('/test', function(Request $request){
 
 Route::post('/inscription',function(){
     request()->validate([
-        'email' => [],
-        'pseudo' => ['min:5'],
-        'pwd' => ['confirmed', 'min:8'],
-        'pwd_conf' => [],
-    ]);
+        'email' => ['required'],
+        'pseudo' => ['required', 'min:5'],
+        'pwd' => ['required', 'confirmed', 'min:8'],
+        'pwd_confirmation' => ['required'],
+    ],
+    [
+        'pwd.min' => 'Veuillez saisir un mot de passe d\'au moins :min caractères !'
+    ]
+    );
 
     $utilisateur = App\Utilisateur::create([
         'email' => request('email'),

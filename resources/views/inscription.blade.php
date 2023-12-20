@@ -23,9 +23,9 @@
             <br>
             <input type="password" name="pwd" required placeholder="Mot de passe">
             <br><br>
-            <label for="pwd_conf">Confirmer mot de passe</label>
+            <label for="pwd_confirmation">Confirmer mot de passe</label>
             <br>
-            <input type="password" name="pwd_conf" required placeholder="Confirmer mot de passe">
+            <input type="password" name="pwd_confirmation" required placeholder="Confirmer mot de passe">
             <br><br>
             <button type="submit">Créer mon compte</button>
             <br><br>
