@@ -5,7 +5,7 @@
 
 @section('content')
 
-<h2>CLASSEMENT DES JOUEURS</h2>
+<h1>CLASSEMENT DES JOUEURS</h1>
 
 <button id="ClassementAmis" onclick="afficherAmis()">Amis</button>
 <button onclick="afficherJoueurs()">Tous les joueurs</button>

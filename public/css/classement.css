@@ -1,9 +1,9 @@
 /*               Main               */
 
 /* au dessus du classement */
-h2 {
+h1 {
+    text-align: left;
     margin-left: 1%;
-    font-size: 46px;
 }
 
 #ClassementAmis {

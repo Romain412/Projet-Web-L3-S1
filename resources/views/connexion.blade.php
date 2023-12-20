@@ -5,7 +5,6 @@
 
 @section('content')
 
-    <br><br>
     <form action="connexion.php" method="post">
         {{ csrf_field() }}
         <fieldset>

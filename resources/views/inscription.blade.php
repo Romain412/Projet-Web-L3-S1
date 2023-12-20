@@ -5,19 +5,11 @@
 
 @section('content')
 
-    <br><br>
-
-     @if(session('status'))
+    @if(session('status'))
         <div>
             {{ session('status') }}
         </div>
     @endif 
-
-<!-- <ul>
-    @foreach ($errors->all() as $error)
-        <li class = "form-error"> {{ $error }}</li>
-    @endforeach
-</ul> -->
 
     <form action="/inscription" method="post"> <!-- inscription.php au lieu de /inscription-->
         {{ csrf_field() }}
