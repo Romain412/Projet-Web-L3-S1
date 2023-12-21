@@ -28,6 +28,10 @@ Route::get('/ligues', function() {
     return view('ligues');
 })->name('ligues');
 
+Route::get('/amis', function() {
+    return view('amis');
+})->name('amis');
+
 Route::get('/connexion', function() {
     return view('connexion');
 })->name('connexion');

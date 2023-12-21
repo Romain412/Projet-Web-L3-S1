@@ -16,7 +16,7 @@
             <a href="/"><img id="im1" src="{{ asset('img/logo_BOL_det.png') }}" alt="Logo du site"></a>
             <a href="/" class="nav-button"><span class="text">ACCUEIL</span><span>Page d'accueil</span></a>
             <a href="/classement" class="nav-button"><span class="text">CLASSEMENT</span><span>Page de classement</span></a>
-            <a href="" class="nav-button"><span class="text">AMIS</span><span>Page d'amis</span></a>
+            <a href="/amis" class="nav-button"><span class="text">AMIS</span><span>Page d'amis</span></a>
             <a href="/connexion" class="nav-button"><span class="text">SE CONNECTER</span><span>Page de connexion</span></a>
         </nav>
     </header>

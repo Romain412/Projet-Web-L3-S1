@@ -301,62 +301,62 @@ class DatabaseSeeder extends Seeder
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Zefa')->value('id_coach'),
-        'nom' => '⁠Dplus KIA',
-        'logo' => '/img/equipes/logo_⁠dplus_kia.png',
+        'nom' => 'Dplus KIA',
+        'logo' => '/img/equipes/logo_dplus_kia.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Micro')->value('id_coach'),
-        'nom' => '⁠DRX',
-        'logo' => '/img/equipes/logo_⁠drx.png',
+        'nom' => 'DRX',
+        'logo' => '/img/equipes/logo_drx.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'FIFAHUN')->value('id_coach'),
-        'nom' => '⁠Gen.G',
-        'logo' => '/img/equipes/logo_⁠gen_g.png',
+        'nom' => 'Gen.G',
+        'logo' => '/img/equipes/logo_gen_g.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'DanDy')->value('id_coach'),
-        'nom' => '⁠Hanwha Life',
-        'logo' => '/img/equipes/logo_⁠hanwha_life.png',
+        'nom' => 'Hanwha Life',
+        'logo' => '/img/equipes/logo_hanwha_life.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Hirai')->value('id_coach'),
-        'nom' => '⁠KT Rolster',
-        'logo' => '/img/equipes/logo_⁠kt_rolster.png',
+        'nom' => 'KT Rolster',
+        'logo' => '/img/equipes/logo_kt_rolster.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Cain')->value('id_coach'),
-        'nom' => '⁠Kwangdong Freecs',
-        'logo' => '/img/equipes/logo_⁠kwangdong_freecs.png',
+        'nom' => 'Kwangdong Freecs',
+        'logo' => '/img/equipes/logo_kwangdong_freecs.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Ryu')->value('id_coach'),
-        'nom' => '⁠Liiv SANDBOX',
-        'logo' => '/img/equipes/logo_⁠liiv_sandbox.png',
+        'nom' => 'Liiv SANDBOX',
+        'logo' => '/img/equipes/logo_liiv_sandbox.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Irean')->value('id_coach'),
-        'nom' => '⁠NS RedForce',
-        'logo' => '/img/equipes/logo_⁠ns_redforce.png',
+        'nom' => 'NS RedForce',
+        'logo' => '/img/equipes/logo_ns_redforce.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Edgar')->value('id_coach'),
-        'nom' => '⁠OK BRION',
-        'logo' => '/img/equipes/logo_⁠ok_brion.png',
+        'nom' => 'OK BRION',
+        'logo' => '/img/equipes/logo_ok_brion.png',
         ]);
 
         Equipe::create([
         'ref_coach' => DB::table('coachs')->where('pseudo', 'Kkoma')->value('id_coach'),
-        'nom' => '⁠T1',
-        'logo' => '/img/equipes/logo_⁠t1.png',
+        'nom' => 'T1',
+        'logo' => '/img/equipes/logo_t1.png',
         ]);
         
 
@@ -2644,6 +2644,63 @@ class DatabaseSeeder extends Seeder
         Rencontre::create([
         'ref_equipe1' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
         'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 19:00:00'
+        ]);
+
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Aegis')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'BK ROG Esports')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'GameWard')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'KCorp Academy')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 18:00:00'
+        ]);
+        
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Solary')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'BDS Academy')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 19:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Du Sud')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Team GO')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 20:00:00'
+        ]);
+////////////////////////////
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Vitality Bee')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Gentlemates')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 21:00:00'
+        ]);
+        
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Solary')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Team GO')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Du Sud')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Gentlemates')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'GameWard')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'BDS Academy')->value('id_equipe'),
         'format' => '3',
         'date' => '2023-12-29 19:00:00'
         ]);
