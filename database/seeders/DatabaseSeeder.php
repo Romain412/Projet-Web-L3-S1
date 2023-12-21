@@ -2513,6 +2513,141 @@ class DatabaseSeeder extends Seeder
         'date' => '2023-12-21 19:00:00'
         ]);
 
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'DRX')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Gen.G')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-24 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Dplus KIA')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'DRX')->value('id_equipe'),
+        'format' => '1',
+        'date' => '2023-12-29 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Hanwha Life')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'KT Rolster')->value('id_equipe'),
+        'format' => '2',
+        'date' => '2023-12-25 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'OK BRION')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'T1')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-25 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'NS RedForce')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Kwangdong Freecs')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-25 19:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'NS RedForce')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Kwangdong Freecs')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-25 19:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'NS RedForce')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Gen.G')->value('id_equipe'),
+        'format' => '1',
+        'date' => '2023-12-26 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'DRX')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'T1')->value('id_equipe'),
+        'format' => '2',
+        'date' => '2023-12-26 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Dplus KIA')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'KT Rolster')->value('id_equipe'),
+        'format' => '1',
+        'date' => '2023-12-26 19:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Hanwha Life')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'T1')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-27 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'OK BRION')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Kwangdong Freecs')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-27 17:00:00'
+        ]);
+
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Rogue')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'MAD Lions')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Karmine Corp')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 19:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team BDS')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 20:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team BDS')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Rogue')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-28 21:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Fnatic')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'MAD Lions')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 17:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'Team Heretics')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Karmine Corp')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 18:00:00'
+        ]);
+
+        Rencontre::create([
+        'ref_equipe1' => DB::table('equipes')->where('nom', 'G2 Esports')->value('id_equipe'),
+        'ref_equipe2' => DB::table('equipes')->where('nom', 'Team Vitality')->value('id_equipe'),
+        'format' => '3',
+        'date' => '2023-12-29 19:00:00'
+        ]);
+
     }
 }
 
