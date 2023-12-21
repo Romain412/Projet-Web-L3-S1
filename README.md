@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="public/img/logo_BOL_det.png" width="400" alt="Laravel Logo"></a></p>
 
 ## Bet of Legends
-### Romain THOMAS, Ronan BESNARD et Kevin SOARES
+#### Romain THOMAS, Ronan BESNARD et Kevin SOARES
 
 Bet of Legends est un site de paris fictifs à base de points sur les matchs officiels de ligues de League of Legends.
 
