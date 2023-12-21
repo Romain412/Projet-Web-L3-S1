@@ -5,7 +5,13 @@
 
 @section('content')
 
-    <form action="connexion.php" method="post">
+    @if(session('status'))
+    <div>
+        {{ session('status') }}
+    </div>
+    @endif
+
+    <form action="/connexion" method="post">
         {{ csrf_field() }}
         <fieldset>
             <legend>Entrez vos identifiants</legend>
@@ -16,8 +22,16 @@
             <br><br>
             <label for="mdp">Mot de passe</label>
             <br>
-            <input type="password" name="mdp" required placeholder="Mot de passe">
+            <input type="password" name="pwd" required placeholder="Mot de passe">
             <br><br>
+
+            @if ($errors->any())
+                <div class="div-error">
+                    @foreach ($errors->all() as $error)
+                        <p class="text-error">{{ $error }}</p>
+                    @endforeach
+                </div>
+            @endif
             <button type="submit">Se connecter</button>
             <br><br>
         </fieldset>

@@ -54,3 +54,4 @@ Route::get('/test', function(Request $request){
 /*              ROUTES POST             */
 
 Route::post('/inscription', [UtilisateurController::class, 'ajouter_utilisateur']);
+Route::post('/connexion', [UtilisateurController::class, 'connecter_utilisateur']);

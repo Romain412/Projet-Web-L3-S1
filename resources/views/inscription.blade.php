@@ -11,7 +11,7 @@
         </div>
     @endif 
 
-    <form action="/inscription" method="post"> <!-- inscription.php au lieu de /inscription-->
+    <form action="/inscription" method="post">
         {{ csrf_field() }}
         <fieldset>
             <legend>Création de votre compte</legend>
@@ -38,12 +38,10 @@
             <br><br>
 
             @if ($errors->any())
-                <div class="text-error">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <p>{{ $error }}</p>
-                        @endforeach
-                    </ul>
+                <div class="div-error">
+                    @foreach ($errors->all() as $error)
+                        <p class="text-error">{{ $error }}</p>
+                    @endforeach
                 </div>
             @endif
 
