@@ -1,0 +1,52 @@
+#vitrine_accueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#vitrine_accueil a{
+    flex: 31%; 
+    margin: 5px;
+    margin-left: 3%;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 13px rgb(227, 227, 227);
+    background-color: rgb(227, 227, 227);
+}
+
+.bet-box {
+    flex: 31%;
+    margin: 5px;
+    gap: 1rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style pour le texte à l'intérieur des cases de pari */
+.bet-text {
+    text-align: center;
+    color: #293042;
+}
+
+.bet-box img {
+    max-width: 100%; /* Pour que l'image ne dépasse pas la largeur de la case */
+    width: 13%;
+    height: auto;
+    top: 0%;
+}
+
+#logoLigue {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    width: auto;
+
+}

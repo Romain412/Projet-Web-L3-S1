@@ -24,6 +24,10 @@ Route::get('/classement', function() {
     return view('classement');
 })->name('classement');
 
+Route::get('/ligues', function() {
+    return view('ligues');
+})->name('ligues');
+
 Route::get('/connexion', function() {
     return view('connexion');
 })->name('connexion');
@@ -54,4 +58,3 @@ Route::get('/test', function(Request $request){
 /*              ROUTES POST             */
 
 Route::post('/inscription', [UtilisateurController::class, 'ajouter_utilisateur']);
-Route::post('/connexion', [UtilisateurController::class, 'connecter_utilisateur']);

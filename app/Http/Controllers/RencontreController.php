@@ -25,4 +25,22 @@ class RencontreController extends Controller
             $rencontre->save();
         }
     }
+
+    public function show($id){
+        $rencontre = Rencontre::select('rencontres.*', 'equipe1.logo as logo_equipe1', 'equipe 1.nom as nom_equipe1', 'equipe2.logo as logo_equipe2', 'equipes2.nom as nom_equipe2')
+        ->join('equipes as equipe1', 'rencontres.ref_equipe1', '=', 'equipe1.id')
+        ->join('equipes as equipe2', 'rencontres.ref_equipe2', '=', 'equipe2.id')
+        ->where('rencontres.id', $id_match)
+        ->first();
+
+        $equipe1 = [
+            'logo' => $match->logo_equipe1,
+            'nom' => $match->nom_equipe1,
+        ];
+        
+        $equipe2 = [
+            'logo' => $match->logo_equipe2,
+            'nom' => $match->nom_equipe2,
+        ];
+    }
 }

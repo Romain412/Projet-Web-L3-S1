@@ -6,11 +6,11 @@
 @section('content')
 
 <nav id="sidebar">
-    <a href="page1.php">WORLD</a>
-    <a href="page2.php">MSI</a>
-    <a href="page3.php">LEC</a>
-    <a href="page4.php">LCK</a>
-    <a href="page5.php">LFL</a>
+    <a href="ligues?nom=World">WORLD</a>
+    <a href="ligues?nom=MSI">MSI</a>
+    <a href="ligues?nom=LEC">LEC</a>
+    <a href="ligues?nom=LCK">LCK</a>
+    <a href="ligues?nom=LFL">LFL</a>
 </nav>
 
 <h1>PARIS DU JOUR</h1>
@@ -39,7 +39,7 @@ WHERE d.nom = "LEC" AND aa.ref_ligue = d.id_ligue AND a.id_equipe = aa.ref_equip
             <p class="type_match">BO {{$info->format}}</p>
         </div>
         <img src='{{ $logo->logo2}}' alt="Logo_Team">
-    </div></a>
+    </a></div>
     
     @endforeach
 </section>
